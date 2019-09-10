@@ -4,13 +4,13 @@
     <parent>
 	    <groupId>com.in28minutes.example.layering</groupId>
     	<artifactId>parent</artifactId>
-    	<version>1.0.3-SNAPSHOT</version>
+    	<version>0.0.1-SNAPSHOT</version>
     </parent>
 
     <packaging>pom</packaging>
-    <artifactId>in28minutes-multi-module-business</artifactId>
+    <artifactId>in28minutes-multi-module-data</artifactId>
     <name>${project.artifactId}</name>
-    <description>Business Layer Project.</description>
+    <description>Sample Implementation of the Business Layer.</description>
 
     <modules>
         <module>api</module>

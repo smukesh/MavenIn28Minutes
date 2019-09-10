@@ -4,14 +4,14 @@
 
     <parent>
 	    <groupId>com.in28minutes.example.layering</groupId>
-    	<artifactId>in28minutes-multi-module-data</artifactId>
-    	<version>1.0.3-SNAPSHOT</version>
+    	<artifactId>in28minutes-multi-module-business</artifactId>
+    	<version>0.0.1-SNAPSHOT</version>
     </parent>
 
     <packaging>jar</packaging>
-    <artifactId>in28minutes-multi-module-data-impl</artifactId>
+    <artifactId>in28minutes-multi-module-business-api</artifactId>
     <name>${project.artifactId}</name>
-    <description>Data Access Implementation.</description>
+    <description>Business Layer API.</description>
 
     <dependencies>
         <dependency>
