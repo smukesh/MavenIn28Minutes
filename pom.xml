@@ -5,7 +5,7 @@
 	<packaging>pom</packaging>
 	<groupId>com.in28minutes.example.layering</groupId>
 	<artifactId>parent</artifactId>
-	<version>1.0.4-SNAPSHOT</version>
+	<version>1.0.5-SNAPSHOT</version>
 	<name>${project.artifactId}</name>
 	<description>This pom acts as the parent pom for the entire project.</description>
 
