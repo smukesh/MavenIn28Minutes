@@ -4,7 +4,7 @@
 	<packaging>pom</packaging>
 	<groupId>com.in28minutes.example.layering</groupId>
 	<artifactId>parent</artifactId>
-	<version>1.0.6-SNAPSHOT</version>
+	<version>1.0.6</version>
 	<name>${project.artifactId}</name>
 	<description>This pom acts as the parent pom for the entire project.</description>
 
@@ -23,7 +23,7 @@
          <connection>scm:git@github.com:smukesh/MavenIn28Minutes.git</connection>
   	 <developerConnection>scm:git:git@github.com:smukesh/MavenIn28Minutes.git</developerConnection>
          <url>git@github.com:smukesh/MavenIn28Minutes.git</url>
-         <tag>HEAD</tag>
+         <tag>parent-1.0.6</tag>
         </scm>
 
 
