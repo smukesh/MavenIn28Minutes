@@ -20,15 +20,13 @@
 		<module>business</module>
 	</modules>
 
-	<scm>
-		<developerConnection>
-            scm:svn:URL TO SVN REPOSITORY
-        </developerConnection>
-		<connection>
-            scm:svn:URL TO SVN REPOSITORY
-        </connection>
-		<url>URL TO SVN REPOSITORY</url>
-	</scm>
+
+        <scm>
+		<connection>scm:git:git@github.com:smukesh/MavenIn28Minutes.git</connection>
+		<developerConnection>scm:git:git@github.com:smukesh/MavenIn28Minutes.git</developerConnection>
+		<url>git@github.com:smukesh/devops.git</url>
+		<tag>v1.20</tag>
+	</scm>       
 
 
 	<dependencyManagement>
@@ -185,6 +183,16 @@
 					<showWarnings>true</showWarnings>
 				</configuration>
 			</plugin>
+		<plugin>
+ 				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.5.1</version>
+				<configuration>
+					<tagNameFormat>v@{project.version}</tagNameFormat>
+					<autoVersionSubmodules>true</autoVersionSubmodules>
+				</configuration>
+		</plugin>                
+
 		</plugins>
 	</build>
 
